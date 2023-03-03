@@ -1,0 +1,12 @@
+.card {
+  .card-body__m {
+    text-align: center;
+    padding: 160px;
+  }
+  .card-body__s {
+    @include card-body__s;
+  }
+  .card-body__l {
+    @include card-body__l;
+  }
+}
