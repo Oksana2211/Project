@@ -49,21 +49,22 @@
   object-fit: cover;
 }
 // медиазапросы
-
-@media (min-width: 600px) and (max-width: 1023px){
-    .mymission, .unic, .instruments{
-        height: 230px;
-        margin: 5px;
-    }
-
-    .mymission__text, .unic__text, .instruments__text{
-        color: $text-color2;
-        line-height: 1.1rem;
-    }
-
-    .mission-title{
-        font-weight: 100;
-    }
+@media (min-width: 600px) and (max-width: 1023px) {
+  .mymission,
+  .unic,
+  .instruments {
+    height: 230px;
+    margin: 5px;
+  }
+  .mymission__text,
+  .unic__text,
+  .instruments__text {
+    color: $text-color2;
+    line-height: 1.1rem;
+  }
+  .mission-title {
+    font-weight: 100;
+  }
 }
 @media screen and (max-width: 599px) {
   .mission-block {
@@ -89,9 +90,8 @@
   
   .mymission__text, .unic__text, .instruments__text{
     color: $text-color2;
-        }
-    
-  .mission-title{
+  }
+  .mission-title {
     font-weight: 100;
   }
 }
