@@ -66,7 +66,6 @@
     }
 
     .mission-title{
-        @include heading-h2;
         font-weight: 100;
     }
 }
@@ -99,7 +98,6 @@
         }
     
     .mission-title{
-        @include heading-h2;
         font-weight: 100;
     }
 }
