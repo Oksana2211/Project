@@ -1,14 +1,36 @@
 .card {
-  .card-body__m {
-    font-size: $font-size-1;
+  margin-top: auto;
+  border-radius: 0;
+}
+.text-left {
+  text-align: center;
+}
+.card-cilir1 {
+  background-color: $color1;
+}
+.car-cilir2 {
+  background-color: $color2;
+}
+.text-center {
+  justify-content: center;
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+  .card-title {
+    font-size: $font-size-h3-tablet;
+  }
+}
+@media screen and (max-width: 599px) {
+  .main-services {
+    padding-top: 3%;
+  }
+  .text-right {
+    font-size: 2.5vw;
+  }
+  .services-phone {
+    display: flex;
+  }
+  .text-left {
     text-align: center;
-    padding: 120px;
-  }
-  .card-body__s {
-    @include card-body__s;
-  }
-  .card-body__l {
-    @include card-body__l;
-    font-size: $font-size-1;
   }
 }
