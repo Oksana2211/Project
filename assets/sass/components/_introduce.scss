@@ -6,10 +6,12 @@
     margin-bottom: 10%;
     min-height: auto;
 }
+
+
 .rectangle-introduction, .aboutme-text, .opening-text{
     position: relative;
     padding-top: 28px;
-    margin-top: 23px;
+    margin-top: 10px;
 }
 .rectangle-introduction .aboutme-text::after, .opening-text::after{
     content: " ";
@@ -17,7 +19,7 @@
     top: 0;
     left: 0;
     width: 55px;
-    height: 6px;
+    height: 4px;
     background-color: $color1 ;
 }
 h2 {
