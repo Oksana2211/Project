@@ -1,19 +1,19 @@
 .mission-wrapper {
-  border: 1px dashed red;
+  // border: 1px dashed red;
   background-color: #fbfbfb;
   display: grid;
   justify-items: center;
   width: 100%;
 }
 .mission-block {
-  border: 1px dashed red;
+  // border: 1px dashed rgb(14, 8, 110);
   align-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   max-width: 1800px;
   padding-left: 5%;
   padding-right: 5%;
-  // margin-top: 12%;
+  margin-top: 2%;
 }
 .mymission__text,
 .unic__text,
@@ -24,18 +24,18 @@
 .mymission,
 .unic,
 .instruments {
-  border: 1px dashed red;
+  // border: 1px dashed red;
   background-color: #ffffff;
-  margin: 10%;
+  margin: 20px;
   min-width: 22vw;
   min-height: 20vw;
-  padding: 5%;
+  padding: 25px;
 }
 .mymission__headline-block,
 .unic__headline-block,
 .instruments__headline-block {
-  border: 1px dashed rgb(8, 116, 49);
-  align-items: center;
+  // border: 1px dashed rgb(8, 116, 49);
+  align-items: start;
   display: grid;
   grid-template-columns: 3fr 1fr;
 }
