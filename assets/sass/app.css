@@ -1061,6 +1061,10 @@ h2 {
   margin-left: 10%;
 }
 
+.img-coach {
+  max-height: 391px;
+}
+
 @media (min-width: 1200px) {
   .rectangle-introduction-tablet,
   .rectangle-introduction-mobile {
